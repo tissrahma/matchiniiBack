@@ -33,7 +33,7 @@ const password = generatePassword();
 			Numero:"",
 			Sexe:"",
 			location:req.body.location,
-			Image:`${req.protocol}://matchiniiserverkhitem.up.railway.app/img/${req.file.filename}`,
+			Image:`${req.protocol}://matchiniiback-production.up.railway.app/img/${req.file.filename}`,
 			})
 		  .then(
 			res.status(200).json({
