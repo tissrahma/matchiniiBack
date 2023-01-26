@@ -12,7 +12,7 @@ const hostname = '192.168.1.12';
 mongoose.set('debug', true);
 mongoose.Promise = global.Promise;
 mongoose
-.connect("mongodb://mongo:d5d0uuYHQqYyo6naHe0I@containers-us-west-97.railway.app:6924")
+.connect("mongodb://mongo:a7CzVFcCXodqm9SYemjo@containers-us-west-122.railway.app:7625")
   .then(() => {
     console.log(`Connected to ${databaseName}`);
   })
